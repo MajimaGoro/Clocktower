@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-22",
+  "source": "https://avalon2.top/minibotc/",
+  "modules": 64,
+  "components": 22,
+  "stateBindingsRenamed": 80,
+  "renderCaptures": 159,
+  "setupEffectsPreserved": 6,
+  "merged": [],
+  "browserServicesSeparated": true,
+  "extractedWorkflows": [
+    "createSession",
+    "migrateSession",
+    "loadSession",
+    "createVoteDraft",
+    "submitVoteRecord",
+    "editVoteRecord",
+    "deleteVoteRecord",
+    "pickIdentityCard"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-22",
+  "syntax": {
+    "passed": true,
+    "javascriptFiles": 70
+  },
+  "domainTests": {
+    "passed": 21,
+    "failed": 0,
+    "skipped": 0
+  },
+  "build": {
+    "passed": true,
+    "files": 382
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8770/minibotc/",
+    "passed": [
+      "initialRender",
+      "randomRoleAssignment",
+      "saveRoles",
+      "firstNightTransition",
+      "restoreRolesAfterReload",
+      "editNotebook",
+      "restoreNotebookAfterReload"
+    ],
+    "unloadedImages": 0,
+    "warningsAndErrors": 0
+  },
+  "preservation": {
+    "originalDirectoryFilesVerified": 322,
+    "originalArchiveFilesVerified": 322,
+    "changed": []
+  },
+  "limitations": [
+    "Original Vue templates and author comments were not recovered",
+    "Vendor runtime remains a frozen bundle",
+    "Mobile gestures, every character ability, image uploads, and timer sound were not individually verified"
+  ]
+}
